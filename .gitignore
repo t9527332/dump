@@ -7,3 +7,6 @@ docker-compose.yml.*
 www/*
 !www/localhost/
 logs/*
+services/nginx/fastcgi-php.conf
+services/nginx/conf.d/localhost.conf
+docker-compose.sample.yml
