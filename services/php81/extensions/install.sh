@@ -224,13 +224,15 @@ if [[ -z "${EXTENSIONS##*,gd,*}" ]]; then
         libpng-dev \
         libjpeg-turbo \
         libjpeg-turbo-dev \
-	libwebp-dev \
+	    libwebp-dev \
+        git\
     && docker-php-ext-configure gd ${options} \
     && docker-php-ext-install ${MC} gd \
     && apk del \
         freetype-dev \
         libpng-dev \
-        libjpeg-turbo-dev
+        libjpeg-turbo-dev\
+        git
 fi
 
 if [[ -z "${EXTENSIONS##*,yaml,*}" ]]; then
