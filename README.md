@@ -2,14 +2,7 @@ DNMP（Docker + Nginx/Openresty + MySQL5,8 + PHP5,7,8 + Redis + ElasticSearch + 
 
 > 使用前最好提前阅读一遍[目录](#目录)，以便快速上手，遇到问题也能及时排除。
 
-QQ交流群：
-- 1群：**572041090**（已满）
-- 2群：**300723526**（已满）
-- 3群：**878913761**（有位）
 
-**[[ENGLISH]](README-en.md)** -
-[**[GitHub地址]**](https://github.com/yeszao/dnmp) -
-[**[Gitee地址]**](https://gitee.com/yeszao/dnmp)
 
 DNMP项目特点：
 1. `100%`开源
